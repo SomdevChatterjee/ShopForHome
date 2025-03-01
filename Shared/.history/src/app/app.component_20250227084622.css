@@ -1,0 +1,25 @@
+/* Default gradient background for buttons */
+.button-gradient {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  border: none;
+  color: white !important;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect: Complementary gradient */
+.button-gradient:hover, .btn-gradient:focus {
+  background: linear-gradient(45deg, #4b79a1, #283e51);
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: white !important;
+}
+
+/* Active effect for button click */
+.btn-gradient:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
